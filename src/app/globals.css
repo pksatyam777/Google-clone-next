@@ -6,4 +6,10 @@
     .btn{
     @apply bg-[#F8F9FA]
     }
+    .link{
+        @apply hover:underline text-sm
+    }
+    .bottom{
+        @apply bg-[#F2F2F2] w-full
+    }
 }
