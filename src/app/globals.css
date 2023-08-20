@@ -12,4 +12,7 @@
     .bottom{
         @apply bg-[#F2F2F2] w-full
     }
+    .signin-blue{
+        @apply bg-[#1A73E8]
+    }
 }
