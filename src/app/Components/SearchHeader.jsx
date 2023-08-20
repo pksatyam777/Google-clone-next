@@ -23,9 +23,9 @@ export default function SearchHeader() {
           <button className="signin-blue  text-white px-6 py-2 font-normal rounded-md hover:brightness-105 hover:shadow-md transition-shadow">Sign In</button>
         </div>
       </div>
-      <div className="search-result-tabs">
+      
         <SearchHeaderOptions />
-      </div>
+      
     </header>
   )
 }
