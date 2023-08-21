@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content="Google clone created by Next js 13" />
         <link rel="icon" href="/google.svg" />
       </head>
-      <body>{children}<Footer /></body>
+      <body className='relative min-h-screen'>{children}<Footer /></body>
       
     </html>
   )
