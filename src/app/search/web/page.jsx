@@ -11,7 +11,7 @@ export default async function WebSearchPage({ searchParams }) {
     throw new Error("Error fetching data");
   }
   const data = await response.json();
-  console.log(data);
+
   const results = data.items;
   if (!results) {
     return (
